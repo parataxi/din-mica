@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Dinámica</title>
+	<meta name="description" content="Revista de divulgación de la ciencia "/>
+	<meta name="author" content="Rebeca Ortiz"/>
+	<meta name="keywords" content="divulgación, innovación, ciencia,investigación, revista"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.agrupar {
+			width:1200px; 
+			margin: 75px auto;
+			border:25px solid transparent;
+			padding: 10px;
+			background: #ffffff; 
+			background-size: auto;
+			background-blend-mode: 100px
+			}
+		header{
+			background: #ff6600; color: #ffffff; padding: 10px;
+			align-items: center; 
+			background-color: #ff6600
+			background-size:auto;
+			}
+		.logo{
+			max-height: 400px;
+			max-width: 400px;
+			align-items:center;
+			}
+		nav {
+			max-height: 50px;
+			background: #03cefc;
+			background-color:70%;
+			text-anchor: bold;
+			text-decoration-color: #000000;
+			border-top: 25px;
+			padding: 5px 15px;
+			font:bold 20px montserrat;
+			list-style:none;
+			padding: 50px;
+			}
+		.nav li{
+			display: inline-block;
+			align-items: center;
+			}
+		.navbar-nav  li a:hover {
+  			color: #1abc9c !important
+	 		}
+		aside{
+			border-color:#6567AB color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 30%;
+			}
+		.aside2{
+			color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 70%;
+			}
+		footer{
+			background: #03cefc; color: #ffffff; clear:both;
+			} 
+		.footer li{
+			list-style:none;
+			padding: 10px;
+			font:bold 18px montserrat;
+			display: inline-block;
+					}
+		.footer2{
+			background: #034afc; color: #ffffff; clear:both;
+			} 
+		.h1 {color: #000000;font-family: montserrat;font-size: 50px; font-stretch: bold; font-style: italic; align-content: left; padding-top:50px; padding-bottom: 50PX;}
+		.h2 {color: #000000;font-family: montserrat;font-size: 35px; font-style: medium; align-content: center; padding-top: 30px; padding-bottom: 30px;}
+		.h3 {color: #000000;font-family: montserrat;font-size: 25px; font-style: italic; align-content: center; padding: 25px;}
+		.h33 {color: #000000;font-family: montserrat;font-size: 25px; font-style: italic; align-content: center; padding: 25px; display: inline-block;}
+		.h4 {color: #000000;font-family: montserrat;font-size: 16px; font-style: thin; align-content: left;}
+		.p1 {font-family: montserrat;font-size: 30px; font-style: normal; text-align: justify;}
+		.p2 {font-family: montserrat;font-size: 20px; font-style: normal; text-align: justify;}
+		.p3 {font-family: montserrat;font-size: 15px; font-style: normal; text-align: justify;}
+		.article{
+			background: #ffffff;
+			padding: 50px;
+			margin-bottom: 30px;
+			font-family: montserrat;
+			font-size: 20px
+				}
+		.banner{
+  			background: transparent;
+  			display: block;
+  			border: 50px solid color:#ffffff;
+  			align-content: center;
+ 			 padding: 50px;
+  			width: 100%
+  				}
+  		.banner li {
+    		border:50px solid color: #000000;
+    		list-style:none;
+   			padding: 5px;
+    		font:bold 18px montserrat;
+					}
+		.aconocimiento{
+			display: inline-block;
+			padding: 30px;
+			}
+			.aconocimiento li{ 
+				list-style:none;
+				padding:15px;
+				font:bold 18px montserrat;
+				display: inline-block;
+				align-self: center;
+			}
+  		.buscar {
+  			max-height: 255px;
+  			padding-top: 15px;
+  			padding-bottom: 15px;
+  			border-radius: 0
+  			margin-bottom: 0;
+  			font-size: 12px;
+  			letter-spacing: 5px;
+  			background: #2f2f2f;
+  			color: #ffffff}
+  		.navbar-nav  li a:hover {
+  			color: #1abc9c !important
+  				}
+  		.aparataxis{
+			color: #000000; 
+			clear:both;
+			font-size: 30px;
+			font-family: montserrat;
+			height: 500px;
+			page-break-after: 25px;
+			page-break-before: 25px;
+			padding-top: 100px;
+			padding-bottom: 100px
+		}
+  	</style>
+</head>
+<body class="agrupar">
+	<header class="header">
+		<div>
+			<ul class="logo">
+				<a class="logo-brand" href="index_dinamica.html">
+					<img src="logo_dinamica.png" class="logo">
+				</a>
+			</ul>
+		</div>
+	</header>
+	<nav id=nav>
+		<ul class="nav">
+			<li>
+				<a href="index_dinamica.html"> Inicio </a>
+			</li>
+			<li>
+				<a href="Dinamica.html">
+					Dinámica
+				</a>
+			</li>
+			<li>
+				<a href="ejemplares.html">
+					Ejemplares
+				</a>
+			</li>
+			
+			<li>
+				<a href="mconócenos.html">						
+					Conócenos
+				</a>
+			</li>
+			<li>
+				<a href="">						
+					Contáctanos
+				</a>
+			</li>
+			<li class="nav">
+				<form class="d-flex" action="index_parataxis" action="http://www.google.com/search" class="buscar">
+					<td width="50%" align="center">
+						<input type="text" name="q" value="">
+					</td>
+					<button class="btn btn-outline-success" class="navbar-nav" type="submit">
+						Buscar
+					</button>
+				</form>
+			</li>
+		</ul>
+	</nav>
+	<section>
+		<article>
+			<h1 class="h1">
+				Comité editorial
+			</h1>
+			<p class="p1">
+				Ramón González
+			</p>
+			<p class="p1">
+			Verónica Lira
+		</p>
+		<p class="p1">
+
+				David Fuentes
+		</p>
+		<p class="p1">
+				Rebeca Ortiz
+			</p>
+		</article>
+	</section>
+	<footer class="footer" align="center">
+			<hr>
+			<div class="banner-wrapper">
+				<div class="icon-text">
+					<div class="icon-text-icon">
+						<ul class="footer-nav">
+							<li>
+				<a href="index_dinamica.html"> Inicio </a>
+			</li>
+			<li>
+				<a href="Dinamica.html">
+					Dinámica
+				</a>
+			</li>
+			<li>
+				<a href="ejemplares.html">
+					Ejemplares
+				</a>
+			</li>
+			
+			<li>
+				<a href="misión_visión.html">						
+					Conócenos
+				</a>
+			</li>
+			<li>
+				<a href="">						
+					Contáctanos
+				</a>
+			</li>
+            			</ul>
+            		</div>
+            		<div class="asociales">
+            			<ul class="asociales.li">
+            				<li>
+            					<a href="">
+            						<i class="fa fa-envelope-o">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="">
+            						<i class="fa fa-facebook">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="">
+            						<i class="fa fa-instagram">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="">
+            						<i class="fa fa-linkedin">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a title="Click para chatear" href="https://api.whatsapp.com/send?phone=7772874694&text=Me%20estoy contactando%20a%20través%20de%20parataxis%20" target="_blank" rel="noopener">
+            						<i class="fa fa-whatsapp">
+            						</i>
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            	</div>
+            </div>
+        </footer>
+        <footer class="footer2" align="center">
+        	<hr>
+        	<p>
+        		<a href="index_dinámica.html">www.dinamica.algo
+        		</a>
+        	</p>
+        </footer>
+        <!-- SCRIPTS -->
+        <script>
+        	$(document).ready(function(){
+        		$('.slider1').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider2').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider3').bxSlider({
+        			mode: 'fade',
+        		});
+        	});
+        </script>
+    </div>
+</body>
+</html>
